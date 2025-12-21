@@ -1,8 +1,9 @@
-from sqlmodel import SQLModel, Field
+from sqlmodel import Field
+from models.UserBase import UserBase
 from datetime import datetime
-from models.TodoBase import TodoBase
 
-class Todo(TodoBase, table=True):
+class User(UserBase, table=True):
     id: int | None = Field(primary_key=True, default=None)
+    is_active: bool = Field(default=True)
     created_at: datetime = Field(default=datetime.now(), nullable=False)
-    user_id: int | None = Field(foreign_key="user.id")
+    
