@@ -10,23 +10,27 @@ This isn't just theory. We build **3 Real-World Projects** to ensure you can app
 
 ### **📚 Course Roadmap:**
 
-- **Chapter 1: The Foundation** 🧱
+## Chapter 1: The Foundation 🧱
+
 - FastAPI Architecture & Setup.
 - Environment configuration.
 - **Project 1:** Building your first CRUD API.
 
-- **Chapter 2: Advanced Validation** ✅
+## Chapter 2: Advanced Validation ✅
+
 - Deep dive into **Pydantic** models.
 - Request/Response body management.
 - Handling Exceptions & Custom Status Codes.
 - **Project 2:** Scalable data validation.
 
-- **Chapter 3: Database & ORM** 💾
+## Chapter 3: Database & ORM 💾
+
 - Connecting FastAPI to **MySQL**.
 - Mastering **SQLModel** (The modern way to handle databases).
 - **Project 3 (Part 1):** Building a persistent "Todos" application.
 
-- **Chapter 4: Security & Authentication** 🔒
+## Chapter 4: Security & Authentication 🔒
+
 - Modularizing code with **APIRouter**.
 - User Registration & Login flows.
 - **JWT (JSON Web Tokens)** & Password Hashing.
