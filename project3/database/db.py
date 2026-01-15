@@ -12,6 +12,9 @@ PASSWORD = os.getenv('DB_PASSWORD')
 
 DB_URL=f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@localhost:3306/fastapi_tutorial"
 
+# For docker use below
+# DB_URL=f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@host.docker.internal:3306/fastapi_tutorial"
+
 engine = create_engine(DB_URL, echo=True)
 
 def create_table():
